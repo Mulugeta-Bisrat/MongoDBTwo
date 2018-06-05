@@ -1,0 +1,5 @@
+db.books.createIndex({title:'text'});
+db.books.createIndex({keyWords:'text'});
+db.books.createIndex({student.returnDate:1, student.phoneNo:1});
+db.books.createIndex({title:'text',keyWords:'text'});
+db.books.createIndex({student.returnDate:1, title:'text'});
